@@ -24,7 +24,7 @@ GitHub地址：
 
 3、SpringCloud和Dubbo有哪些区别？
 
-![img](file:///D:/Documents/My Knowledge/temp/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/c3953348-069c-4a49-88eb-b0c6ef310306.jpg)
+![img](/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/c3953348-069c-4a49-88eb-b0c6ef310306.jpg)
 
 - 通信机制（本质区别）：Dubbo基于RPC远程过程调用，微服务SpringCloud基于Http的RESTful API调用；
 
@@ -189,7 +189,7 @@ SpringCloud和SpringBoot是什么关系：
 
 IDEA中直接新建空的Maven项目即可，不勾选Create from archetype
 
-   ![img](file:///D:/Documents/My Knowledge/temp/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/533f2293-72a2-4588-9686-c78bf1888e00.png)
+   ![img](/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/533f2293-72a2-4588-9686-c78bf1888e00.png)
 
   ② POM文件
 
@@ -838,7 +838,7 @@ Eureka的基本架构：
 
 请注意和Dubbo的架构对比
 
-![img](file:///D:/Documents/My Knowledge/temp/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/31f40d44-80d8-43a2-ae97-dade08bf1dce.jpg)![img](file:///D:/Documents/My Knowledge/temp/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/98639013-b79b-4811-a640-d48e4f6c8f2e.jpg)Eureka包含两个组件：Eureka Server和Eureka Client
+![img](/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/31f40d44-80d8-43a2-ae97-dade08bf1dce.jpg)![img](/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/98639013-b79b-4811-a640-d48e4f6c8f2e.jpg)Eureka包含两个组件：Eureka Server和Eureka Client
 
 Eureka Server提供服务注册服务，各个节点启动后，会在EurekaServer中进行注册，这样EurekaServer中的服务注册表中将会存储所有可用服务节点的信息，服务节点的信息可以在界面中直观的看到。
 
@@ -1008,7 +1008,7 @@ http://localhost:7001/
 
 微服务注册名配置说明：
 
-![img](file:///D:/Documents/My Knowledge/temp/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/019d8e76-c7fa-42cd-abc6-56e38a948241.jpg)
+![img](/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/019d8e76-c7fa-42cd-abc6-56e38a948241.jpg)
 
 3、actuator与注册微服务信息完善
 
@@ -1016,7 +1016,7 @@ http://localhost:7001/
 
 当前问题：含有主机名称。
 
-![img](file:///D:/Documents/My Knowledge/temp/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/800b856b-0e76-4994-a254-044cfd3df2e6.jpg)修改microservicecloud-provider-dept-8001，修改application.yml：
+![img](/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/800b856b-0e76-4994-a254-044cfd3df2e6.jpg)修改microservicecloud-provider-dept-8001，修改application.yml：
 
  
 
@@ -1033,7 +1033,7 @@ eureka:
 
 当前问题：没有IP提示。
 
-![img](file:///D:/Documents/My Knowledge/temp/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/3876592e-4a87-4238-98d6-7bab12648dfb.jpg)
+![img](/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/3876592e-4a87-4238-98d6-7bab12648dfb.jpg)
 
 修改microservicecloud-provider-dept-8001，修改application.yml：
 
@@ -1109,9 +1109,9 @@ info:
 
 故障现象： 
 
-![img](file:///D:/Documents/My Knowledge/temp/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/22536531-7db0-48a2-af56-9246f8545920.png)
+![img](/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/22536531-7db0-48a2-af56-9246f8545920.png)
 
-![img](file:///D:/Documents/My Knowledge/temp/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/1cbc4511-a3fa-4ad9-a1d2-6f52d69d0a28.jpg)
+![img](/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/1cbc4511-a3fa-4ad9-a1d2-6f52d69d0a28.jpg)
 
 导致原因：一句话：某时刻某一个微服务不可用了，eureka不会立刻清理，依旧会对该微服务的信息进行保存。
 
@@ -1200,7 +1200,7 @@ http://localhost/consumer/dept/discovery
 集群配置：
 
 1、新建microservicecloud-eureka-7002/microservicecloud-eureka-7003
- 
+
 
 2、按照7001为模板粘贴POM
 
@@ -1336,7 +1336,7 @@ http://eureka7003.com:7003/
 
 **作为服务注册中心，Eureka比Zookeeper好在哪里：**
 
-![img](file:///D:/Documents/My Knowledge/temp/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/b6f8be03-cd3b-4653-bf1c-aef682d878a0.jpg)
+![img](/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/b6f8be03-cd3b-4653-bf1c-aef682d878a0.jpg)
 
 著名的CAP理论指出，一个分布式系统不可能同时满足C（一致性）、A（可用性）和P（分区容错性）。由于分区容错性P是分布式系统中必须要保证的，因此我们只能在A和C之间进行权衡。
 
@@ -1554,7 +1554,7 @@ http://localhost/consumer/dept/add?dname=大数据部
 
 **Ribbon负载均衡**：
 
-![img](file:///D:/Documents/My Knowledge/temp/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/4dbcc332-36d5-4a9a-bdd2-b33a9a830ad5.jpg)
+![img](/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/4dbcc332-36d5-4a9a-bdd2-b33a9a830ad5.jpg)
 
 Ribbon在工作时分成两步：
 
@@ -1711,7 +1711,7 @@ info:
   build.version: $project.version$
 ```
 
-![img](file:///D:/Documents/My Knowledge/temp/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/79b471bf-3df1-4523-bfbe-9cece80a39d7.png)
+![img](/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/79b471bf-3df1-4523-bfbe-9cece80a39d7.png)
 
 4、启动3个eureka集群配置区
 
@@ -2231,7 +2231,7 @@ Feign通过接口的方法调用Rest服务（之前是Ribbon+RestTemplate），�
 
 分布式系统面临的问题：复杂分布式体系结构中的应用程序有数十个依赖关系，每个依赖关系在某些时候将不可避免地失败。
 
-![img](file:///D:/Documents/My Knowledge/temp/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/b512cc53-4d0e-4f7d-a41b-b30a25c9f5d1.jpg)
+![img](/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/b512cc53-4d0e-4f7d-a41b-b30a25c9f5d1.jpg)
 
 服务雪崩：多个微服务之间调用的时候，假设微服务A调用微服务B和微服务C，微服务B和微服务C又调用其它的微服务，这就是所谓的“扇出”。如果扇出的链路上某个微服务的调用响应时间过长或者不可用，对微服务A的调用就会占用越来越多的系统资源，进而引起系统崩溃，所谓的“雪崩效应”.
 
@@ -2610,9 +2610,9 @@ http://localhost/consumer/dept/get/1
 http://localhost/consumer/dept/get/1
 ```
 
-![img](file:///D:/Documents/My Knowledge/temp/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/4b2274b3-e559-4e4f-ae62-cee10056e7be.png)
+![img](/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/4b2274b3-e559-4e4f-ae62-cee10056e7be.png)
 
-![img](file:///D:/Documents/My Knowledge/temp/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/a3edc378-628f-48df-a06f-47ebd03ba5e2.jpg)
+![img](/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/a3edc378-628f-48df-a06f-47ebd03ba5e2.jpg)
 
 **服务监控hystrixDashboard**：
 
@@ -2789,7 +2789,7 @@ http://localhost:8001/hystrix.stream
 
 搞懂一个才能看懂复杂的：
 
-![img](file:///D:/Documents/My Knowledge/temp/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/79d0d3d0-3517-463e-8f4c-f5b6173efce7.jpg)
+![img](/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/79d0d3d0-3517-463e-8f4c-f5b6173efce7.jpg)
 
 # 九、Zuul路由网关
 
@@ -3059,7 +3059,7 @@ info:
 
 是什么：
 
-![img](file:///D:/Documents/My Knowledge/temp/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/61a2d716-a054-41f8-ad92-949ee1c1e59e.jpg)
+![img](/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/61a2d716-a054-41f8-ad92-949ee1c1e59e.jpg)
 
 SpringCloud Config为微服务架构中的微服务提供集中化的外部配置支持，配置服务器为各个不同微服务应用的所有环境提供了一个中心化的外部配置。
 
@@ -3283,7 +3283,7 @@ http://config-3344.com:3344/application-xxx.yml
 
 12、配置读取规则
 
-![img](file:///D:/Documents/My Knowledge/temp/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/25a47f49-5587-4e1d-9a14-b3e3e0b55431.jpg)
+![img](/2c2154f6-4be6-4bb8-9275-0c4fe7e11497/128/index_files/25a47f49-5587-4e1d-9a14-b3e3e0b55431.jpg)
 
  
 
