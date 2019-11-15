@@ -12,6 +12,9 @@ GitHub地址：
 
   配置文件：https://github.com/wangliu1102/microservicecloud-config
 
+视频地址：
+  链接：https://pan.baidu.com/s/1Mc1hePQidQSiGtB5QVf0bw 
+  提取码：7x5o 
 
 
 微服务架构SpringCloud：一堆技术的集合体，大概21种技术之多。目前最常用的有五种（**Eureka、Ribbon/Feign、Hystrix、Zuul、SpringCloud  Config**），俗称Cloud技术的五大神兽。
